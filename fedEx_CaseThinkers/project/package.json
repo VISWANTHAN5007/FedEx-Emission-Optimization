@@ -1,0 +1,45 @@
+{
+  "name": "ecoroute-pro",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "vitest",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.14.14",
+    "@mui/icons-material": "^5.14.14",
+    "@mui/lab": "^5.0.0-alpha.149",
+    "framer-motion": "^10.16.4",
+    "leaflet": "^1.9.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-leaflet": "^4.2.1",
+    "recharts": "^2.9.0",
+    "jspdf": "^2.5.1",
+    "date-fns": "^2.30.0",
+    "@react-three/fiber": "^8.15.12",
+    "@react-three/drei": "^9.92.7",
+    "three": "^0.160.0",
+    "react-speech-recognition": "^3.10.0",
+    "socket.io-client": "^4.7.2",
+    "react-places-autocomplete": "^7.3.0",
+    "react-beautiful-dnd": "^13.1.1",
+    "react-notifications": "^1.7.4",
+    "react-i18next": "^13.5.0",
+    "i18next": "^23.7.11"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.3",
+    "vite": "^4.4.5",
+    "vitest": "^0.34.6",
+    "workbox-webpack-plugin": "^7.0.0"
+  }
+}
